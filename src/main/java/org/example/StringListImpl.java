@@ -53,7 +53,6 @@ public class StringListImpl implements StringList {
     public String remove(String item) {
         validateItem(item);
         int index = indexOf(item);
-
         return remove(index);
     }
 
